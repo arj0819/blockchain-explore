@@ -14,7 +14,7 @@ class BaseRepository {
         console.log(`     includeAuthHeader -> ${includeAuthHeader}`);
         if (includeAuthHeader) {
             config.headers = {
-                Authorization: `Bearer ${localStorage.getItem('vibeweatherAuthToken') || ''}`
+                Authorization: `Bearer ${localStorage.getItem('blockchain-exploreAuthToken') || ''}`
             }
         }
         var config = {
@@ -46,7 +46,7 @@ class BaseRepository {
         console.log(`      includeAuthHeader -> ${includeAuthHeader}`);
         if (includeAuthHeader) {
             config.headers = {
-                Authorization: `Bearer ${localStorage.getItem('vibeweatherAuthToken') || ''}`
+                Authorization: `Bearer ${localStorage.getItem('blockchain-exploreAuthToken') || ''}`
             }
         }
         return axios.post(API_BASE_URL + requestUrl, data, config);
