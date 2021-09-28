@@ -1,4 +1,4 @@
-# vibeweather
+# blockchain-explore
 
 ## Project setup
 ```
