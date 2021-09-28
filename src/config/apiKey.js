@@ -1,0 +1,1 @@
+exports.API_KEY = 'bd1e339e0bb34afdb44223609212505'
